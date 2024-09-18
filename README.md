@@ -29,7 +29,7 @@
 
 
 ## Conclusions
-- Model Performance- Training Accuracy: 88.51% - Training loss: 0.2956. Validation Accuracy: 81.96% - Validation loss: 0.6204
+- Model Performance- Training Accuracy: 89.86% - Training loss: 0.2724. Validation Accuracy: 83.37% - Validation loss: 0.5587
 - Inorder to improve the model several measures were tested including Dropouts and Batch Normalization.
 - Batch Normalization did not improve the validation accuracy (rather it slowed down the learning).
 - Using Dropouts after each convolutional layer,and before & after the flattening of layers significantly improved both the training and validation accuracy.
